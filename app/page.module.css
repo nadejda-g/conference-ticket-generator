@@ -246,6 +246,13 @@
   position: relative;
 }
 
+.mainTicketInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
 .upperTicketPart {
   display: flex;
   flex-direction: row;
@@ -446,6 +453,14 @@
     .conferenceLogo img {
       width: 29px;
       height: 29px;
+    }
+
+    .mainTicketInfo {
+      padding: 16px;
+    }
+
+    .ticketNumber {
+      margin-right: 0px;
     }
 }
 

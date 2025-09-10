@@ -19,12 +19,7 @@ export default function Ticket({ name, email, file, username}) {
                 flexDirection: "row",
                 justifyContent: "space-between"
             }}>
-                <div style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "space-between",
-                    padding: "24px"
-                }}>
+                <div className={styles.mainTicketInfo}>
                     <div className={styles.upperTicketPart}>
                         <div className={styles.conferenceLogo}>
                             <img src={smallLogo.src} alt='conference-logo'/>
