@@ -21,7 +21,7 @@
   background-size: cover;
   background-position: center;
   margin: 0;
-  height: 100%;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,6 +170,19 @@
   align-items: center;
   gap: 8px;
 }
+
+.avatarInputCommentError {
+  color: #F57463;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
 
 .infoIcon {
   width: 16px;
@@ -340,6 +353,33 @@
   letter-spacing: -1px;
   font-weight: 700;
   color: #8784A5;
+}
+
+.picButtonsDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.removeChangePicButtons {
+  background-color: #FFFFFF1A;
+  border-radius: 4px;
+  border: none;
+  font-family: Inconsolata;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.removeChangePicButtons:hover {
+
+}
+
+.removeChangePicButtons span:hover {
+  border-bottom: 1px solid #D1D0D5;
 }
 
 @media screen and (max-width: 375px) {

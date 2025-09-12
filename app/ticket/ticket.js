@@ -4,7 +4,7 @@ import smallLogo from '@/assets/images/logo-mark.svg';
 import avatar from '@/assets/images/image-avatar.jpg';
 import githubLogo from '@/assets/images/icon-github.svg';
 
-export default function Ticket({ name, email, file, username}) {
+export default function Ticket({ name, email, file, username, fileBase64}) {
     const ticketNumber = Math.floor(100000 + Math.random() * 900000)
 
     return (
@@ -36,7 +36,7 @@ export default function Ticket({ name, email, file, username}) {
                     </div>
 
                     <div className={styles.speakerInfo}>
-                        <img src={avatar.src} alt='speaker-logo' className={styles.speakerAvatar}/>
+                        <img src={fileBase64} alt='speaker-logo' className={styles.speakerAvatar}/>
                         <div className={styles.speakerDetails}>
                             <p className={styles.fullName}>{name}</p>
                             <div className={styles.speakerSocialInfo}>
