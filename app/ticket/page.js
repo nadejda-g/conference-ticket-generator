@@ -19,7 +19,7 @@ export default function TicketPage() {
             <Logo/>
             <div className={styles.header}>
                 <p className={styles.mainHeader}>Congrats, <span className={styles.nameOrange}>{name}</span>! Your ticket is ready.</p>
-                <p className={styles.subHeader}>We've emailed your ticket to<br/><span className={styles.emailOrange}>{email}</span> and will send updates in<br/>the run up to the event.</p>
+                <p className={styles.subHeader}>We&#39;ve emailed your ticket to<br/><span className={styles.emailOrange}>{email}</span> and will send updates in<br/>the run up to the event.</p>
             </div>
             <Ticket name={name} username={username} file={file} email={email} fileBase64={fileBase64}/>
         </div>
