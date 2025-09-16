@@ -1,4 +1,5 @@
 # Frontend Mentor - Conference ticket generator solution
+# https://conference-ticket-generator-nine-mu.vercel.app/
 
 This is a solution to the [Conference ticket generator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/conference-ticket-generator-oq5gFIU12w). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -48,7 +49,7 @@ Conference ticket generator app design:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://conference-ticket-generator-nine-mu.vercel.app/](https://conference-ticket-generator-nine-mu.vercel.app/)
 
 ## My process
 
