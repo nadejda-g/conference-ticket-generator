@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - Conference ticket generator solution
 
-## Getting Started
+This is a solution to the [Conference ticket generator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/conference-ticket-generator-oq5gFIU12w). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Authors and Acknowledgements](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### The challenge
 
-## Learn More
+User are able to:
 
-To learn more about Next.js, take a look at the following resources:
+- Complete the form with their personal info
+- Receive form validation messages if:
+  - The email address is not formatted correctly
+  - The avatar upload is missed
+  - The avatar upload is too big or the wrong image format
+- Complete the form only using their keyboard
+- Have inputs, form field hints, and error messages announced on their screen reader
+- See the generated conference ticket when they successfully submit the form
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Screenshot
+Conference ticket generator app design:
+- Desktop version:
+![Landing Page](/assets/images/design1.png)
+![Fields filles](/assets/images/design2.png)
+![Ticket generated](/assets/images/design3.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Mobile version:
+  ![Landing Page](/assets/images/mobile1.png)
+  ![Fields filles](/assets/images/mobile2.png)
+  ![Ticket generated](/assets/images/mobile2.2.png)
+- ![Ticket generated](/assets/images/mobile3.png)
 
-## Deploy on Vercel
+### Links
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Responsive design
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- Figma
+- Official documentations
+
+### What I learned
+
+I've improved my knowledge of how to build a web page using React library and Next.js framework, how to add error messages in different situations, how to handle various input fields and how to use the received info.
+
+### Continued development
+
+Improve React and Next.js skills.
+
+### Useful resources
+
+- [React](https://react.dev/)
+- [Next.js](https://nextjs.org/) 
+- [Frontend Mentor](https://www.frontendmentor.io/)
+- [Figma](https://www.figma.com/)
+
+## Authors and Acknowledgements
+
+- Author - [@nadejda-g](https://github.com/nadejda-g)
+- Template - [@Frontend Mentor](https://www.frontendmentor.io/)
+- Mentor - [@dragomirt](https://github.com/dragomirt)
