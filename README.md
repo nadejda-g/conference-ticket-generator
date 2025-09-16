@@ -36,15 +36,15 @@ User are able to:
 ### Screenshot
 Conference ticket generator app design:
 - Desktop version:
-![Landing Page](/assets/images/design1.png)
-![Fields filles](/assets/images/design2.png)
-![Ticket generated](/assets/images/design3.png)
+![Landing Page](/assets/images/design-1.png)
+![Fields filles](/assets/images/design-2.png)
+![Ticket generated](/assets/images/design-3.png)
 
 - Mobile version:
-  ![Landing Page](/assets/images/mobile1.png)
-  ![Fields filles](/assets/images/mobile2.png)
-  ![Ticket generated](/assets/images/mobile2.2.png)
-- ![Ticket generated](/assets/images/mobile3.png)
+  ![Landing Page](/assets/images/mobile-1.png)
+  ![Fields filles](/assets/images/mobile-2.png)
+  ![Ticket generated](/assets/images/mobile-2.2.png)
+- ![Ticket generated](/assets/images/mobile-3.png)
 
 ### Links
 
