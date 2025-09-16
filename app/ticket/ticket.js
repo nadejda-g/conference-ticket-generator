@@ -41,7 +41,7 @@ export default function Ticket({ name, email, file, username, fileBase64}) {
                             <p className={styles.fullName}>{name}</p>
                             <div className={styles.speakerSocialInfo}>
                                 <img src={githubLogo.src} alt='github-logo'/>
-                                <p className={styles.speakerEmail}>@{username}</p>
+                                <p className={styles.speakerEmail}>{username}</p>
                             </div>
                         </div>
                     </div>

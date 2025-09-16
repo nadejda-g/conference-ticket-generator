@@ -374,10 +374,6 @@
   cursor: pointer;
 }
 
-.removeChangePicButtons:hover {
-
-}
-
 .removeChangePicButtons span:hover {
   border-bottom: 1px solid #D1D0D5;
 }
